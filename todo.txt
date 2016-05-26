@@ -1,2 +1,36 @@
-Todo
-as a developer, I can deterine what album track and artist a file beloongs to
+To do
+
+USER EPIC
+As a user I must enter my user name and password to gain access to the system. 
+As a user I may click on a "lost my password" link to get a new password.
+As a user I may register on the site by entering a valid username and password (twice) and an email address which is then validated.
+As a user I may edit my password. 
+As a user I may change my user name. 
+As an admin I may change the information about a user including suspending him and making him an admin (or making other admins into users).
+As an admin  I may NOT change the last admin's prism from admin to user (perhaps there is just always an admin called 'admin'.
+
+
+PLAYLIST EPIC
+As a user I may get a list of tracks, select some of them, and put them into a playlist.
+As a user I may edit the names of my playlists.
+As a user I may create new playlists. 
+As a user I may edit the tracks in a playlist, specifically removing some of them.
+As a user I may play a playlist. 
+As a user I may shuffle a playlist.
+As a user I may create a dynamic playlist based on one or more attributes (for example, a playlist of all my top rated songs). 
+As a user I may allow other users to see my playlists or prevent same. 
+As a user I may allow other users to edit my playlist or prevent same.
+As an admin I may see or edit anyone's playlists.
+
+TRACK DATA EPIC
+As a user I may edit the information in a track perhaps including the name, type, beats per minute, genre and my rating.
+As an admin I may change the album that a track belongs to.
+As an admin I may change the group that is associate with an album. 
+As an admin I may change the group that a track belongs to.
+As an admin I may change the name of a group. 
+As an admin I may change the name or year of an album.
+
+ADD MUSIC EPIC
+As a user I can upload tracks to the system. 
+As an admin I can rip cds and have the files saved to thr right place and added to the system
+As a user I am asked whenever there is a dupicate added.
