@@ -1,0 +1,11 @@
+5/25/16
+
+There are a lot of problems with Tuna with respect to security.
+It is assumed that you are running this on a local are network and the everyone on it is trusted. If this is true then its not so bad but this may not be true; the fact is that you don't kknow for sure that it's true so it might not be. Therefor, security should be high on the list of feature/bug fixes and should continue to be there.
+
+Problems to be address (in no particular order):
+* You can download the audio files since you're just clicking on links to the files. 
+* The users are not used at all; anyone can get in.
+* The music files are totally available to anyone on the web. This can be fixed by adjusting the file, directory and apache privs, it might already be fixed on your system.
+* The passwords (which aren't used) are not encrypted.
+* 
