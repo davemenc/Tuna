@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS tunatest;
 create database tunatest;
-DROP DATABASE IF EXISTS tuna;
-create database tuna;
+#DROP DATABASE IF EXISTS tuna;
+#create database tuna;
 use tunatest;
 
 drop table if exists groups ;
@@ -40,6 +40,6 @@ drop table if exists AudioTypes;
 create table if not exists AudioTypes( id int auto_increment primary key, name tinytext);
 
 drop table if exists genres;
-create table if not exists genres( id int auto_incrememtn primary key, name tinytext);
+create table if not exists genres( id int auto_increment primary key, name tinytext);
 
 
